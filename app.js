@@ -1,5 +1,5 @@
 let listaSorteados = [];
-let numeroMaximo = 10;
+let numeroMaximo = 100;
 let numeroSecreto = gerarNumero();
 let tentativas = 1;
 

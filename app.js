@@ -27,10 +27,10 @@ function verificarChute(){
         document.getElementById("reiniciar").removeAttribute("disabled");
 
         }else if(chute > numeroSecreto){
-            exibirTextoTela("h1", "Você errou!")
+            exibirTextoTela("h1", "Você errou o número!")
             exibirTextoTela("p", `O número secreto é menor que ${chute}`);
             }else{
-                exibirTextoTela("h1", "Você errou!")
+                exibirTextoTela("h1", "Você errou o número!")
                 exibirTextoTela("p", `O número secreto é maior que ${chute}`)
                 }
     tentativas++;
